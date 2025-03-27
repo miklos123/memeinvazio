@@ -1,1 +1,1 @@
-memeinvazio content
+memeinvázió frontend kódjának fejlesztése
