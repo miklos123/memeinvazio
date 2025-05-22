@@ -25,7 +25,7 @@ async function uploadMeme(){
             const formData= new FormData;
             formData.append('meme', meme);
 
-            const response= await fetch('http://127.0.0.1:3000' , {
+            const response= await fetch('http://127.0.0.1:3000/api/memes/uploadMeme' , {
                 method:'POST',
                 body:formData,
                 credentials:'include'
